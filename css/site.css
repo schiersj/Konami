@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+}
+/*************************************************************
+ * Konami
+ ************************************************************/
+.konami {
+  animation: animationFrames ease 5s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+@-moz-keyframes animationFrames {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    bottom: 0;
+  }
+}
+@-webkit-keyframes animationFrames {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    bottom: 0;
+  }
+}
+@keyframes animationFrames {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    bottom: 0;
+  }
+}
