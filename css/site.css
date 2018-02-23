@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 body {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*************************************************************
  * Konami
@@ -8,6 +10,22 @@ body {
   animation: animationFrames ease 5s;
   animation-iteration-count: infinite;
   opacity: 0;
+}
+.konami-background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 100%;
+  z-index: 101;
+  background: url('../img/Rainbow.png') no-repeat top;
+  background-size: cover;
+}
+.konami-background p {
+  margin-top: 200px;
+  font-size: 4em;
+  font-family: 'Press Start 2P', cursive;
 }
 @-moz-keyframes animationFrames {
   0% {
